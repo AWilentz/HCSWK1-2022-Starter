@@ -1,11 +1,15 @@
 /* input JavaScript code here! */
+
+var button = document.querySelector("button");
+var image = document.getElementById("no_display")
+
 function display() {
-    document.getElementById("no_display").style.display = "block";
-    document.getElementById("button").style.display = "none";
-    setTimeout( function() { hide(); }, 3000);
+    image.style.display = "block";
+    button.style.display = "none";
+    setTimeout( function() { hide(); }, 3000 );
 }
 
 function hide() {
-    document.getElementById("no_display").style.display = "none";
-    document.getElementById("button").style.display = "block";
+    image.style.display = "none";
+    button.style.display = "block";
 }

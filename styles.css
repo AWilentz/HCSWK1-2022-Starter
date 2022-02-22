@@ -5,7 +5,8 @@ h1 {
     text-align: center;
     color: #ffffff;
     font-size: 75px;
-    text-shadow: -4px 4px #ef3550,
+    text-shadow: 
+    -4px 4px #ef3550,
     -8px 8px #f48fb1,
     -12px 12px #7e57c2,
     -16px 16px #2196f3,
@@ -36,7 +37,7 @@ body {
     width: 50%;
 }
 
-#button {
+button {
     display: block;
     margin-left: auto;
     margin-right: auto;
